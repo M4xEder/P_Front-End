@@ -1,0 +1,1 @@
+Nesse repositório veremos JavaScript linguagem de programação, seu conceito e uso!

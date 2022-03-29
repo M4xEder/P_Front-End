@@ -1,0 +1,42 @@
+ Variáveis
+Variáveis são espaços ou endereços de memória, reservados para armazenamento
+ de dados. Em outras palavras, variáveis são locais onde o seu programa ou 
+ código pode armazenar dados das mais diversas formas, para serem utilizados 
+ e alterados posteriormente quando necessário, ou seja, este espaço reservado
+  de memória pode ter seu conteúdo ou valor modificado.
+  Em Javascript é possível declarar as variáveis de forma implícita:
+  var nome_Cliente = “João da Silva”; ou o métado explicito: var nome_Cliente;
+variaveis
+  É possível declarar mais de uma variável na mesma linha Método explícito:
+var x , y , z; 
+Método implícito
+var x=5 , y=10 , z=3;
+ 
+  Tipos de Dados: possui tipos básicos e diferentes destinados a armazenar dados de diferentes tipos.
+ inteiro, finalidade numeros inteiros (int ,ex: 10)
+ real, finalidade numeros quebrados (float ,ex: 9.5)
+ caractere, finalidade representar simbolos ou caracteres alfa numericos (string "" ,ex: "maxEl01")
+ logico, finalidade booleano verdadeiro ou falso (true ou false )
+ 
+  Concatenação em Javascript
+Concatenação é um termo usado em computação para unir "coisas" diferentes, ou seja unir uma string e 
+uma variável, ou uma variável, cujo conteúdo é um valor numérico com uma variável com conteúdo do tipo string.
+
+ Constantes
+Em algumas situações necessitamos criar um tipo de armazenamento que não devem ser alterados durante a execução de seu programa. Nestes casos, criamos as constantes.
+As constantes são um tipo especial para armazenar valor que não será alterado no momento da execução do programa.
+ Para determiná-la, adicionando const antes no nome da constante. Um exemplo prático de constante é uma variável como o número PI: const pi;
+ 
+  Entrada de dados
+Uma das forma de executar a entrada de dados em Javascript var nome_da_variável = prompt("Mensagem");
+  Observação: o tipo de dados para entrada de dados pelo prompt será String
+
+  Mudança de tipos
+Para alterar o tipo para número inteiro (int) ou para número real (float) Para alterar para número inteiro (int):
+parseInt(valor ou variável); Para alterar para número real (float):
+parseFloat(valor ou variável);
+Para alterar para um número real (float) ou número inteiro
+(int):
+Number(valor ou variável);
+ 
+ 
